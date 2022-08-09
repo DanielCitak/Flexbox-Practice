@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  background-color: rgb(252, 243, 232);
+}
+
+h1 {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+nav {
+  height: 60px;
+  background-color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.container {
+  padding: 0 20px;
+  height: 100%;
+
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.container-1 {
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container-2 {
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.container-3 {
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-4 {
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  gap: 25px;
+}
+
+.container-5 {
+  justify-content: center;
+  height: 200px;
+}
+
+.header-text {
+  max-width: 350px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-self: center;
+}
+
+button {
+  background-color: rgb(252, 243, 232);
+  color: #1b1b1b;
+  border-top: 2px solid #474747;
+  border-left: 2px solid #474747;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px;
+  width: 80px;
+}
+
+button:active {
+  border-bottom: 2px solid #474747;
+  border-right: 2px solid #474747;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
+}
+
+article img {
+  width: 200px;
+  height: 134px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(253, 236, 215);
+  padding: 10px;
+  width: 230px;
+  height: 300px;
+  border: 2px solid rgb(247, 209, 164);
+  border-radius: 20px;
+}
+
+.img-text img {
+  margin-bottom: 7px;
+}
+
+.meaningful-word {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 100; /* idk why it is same when i delete it */
+}
+
+.by {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.article-2 {
+  background-color: #e5e7eb;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up {
+  width: 800px;
+  border-radius: 15px;
+  height: 170px;
+  background-color: rgb(255, 123, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-up-text {
+  width: 70%;
+}
+
+.sign-up-button {
+  background-color: rgb(255, 123, 0);
+}
+
+.sign-up-title,
+.sign-up-content,
+.sign-up-button {
+  color: #e5e7eb;
+}
+
+.sign-up-title {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+a:link {
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #555;
+}
+
+a:visited {
+  color: #111;
+}
+
+.nav-links a:link,
+footer a:link {
+  color: #f9faf8;
+}
+
+.nav-links a:visited,
+footer a:visited {
+  color: #f9faf8;
+}
